@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>An ASP.NET Core library for generating and validating one time passwords for google authenticator.</Description>
+    <AssemblyTitle>AspNetCore.Totp</AssemblyTitle>
+    <Version>2.3.0</Version>
+    <Authors>Damir Kusar</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>AspNetCore.Totp</AssemblyName>
+    <PackageId>AspNetCore.Totp</PackageId>
+    <PackageTags>one time password;totp;google authenticator;authenticator;asp.net core;totp;otp;multi-factor;two-factor;2fa;2factor;mfa;security;oath;protection;authentication</PackageTags>
+    <PackageProjectUrl>https://github.com/damirkusar/AspNetCore.Totp</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/damirkusar/AspNetCore.Totp/blob/master/License.md</PackageLicenseUrl>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/damirkusar/AspNetCore.Totp</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCore.Totp.Interface\AspNetCore.Totp.Interface.csproj" /> 
+  </ItemGroup>
+
+</Project>
